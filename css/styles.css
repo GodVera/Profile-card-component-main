@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+  margin: 0;
+  width: 1440px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding-top: 60px;
+  font-size: 18px;
+}
+
+p {
+  color: hsl(227, 10%, 46%);
+}
+
+hr {
+  border-top: 1px solid hsl(227, 10%, 46%);
+}
+
+
+.background {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  height: 100vh;
+  position: relative;
+}
+
+.img-top {
+  position: relative;
+  right: 40%;
+  bottom: 70%;
+
+}
+
+.img-bott {
+  position: relative;
+  left: 40%;
+  bottom: 80%;
+
+}
+
+.card {
+ position: absolute;
+ width: 30%;
+ top: 50%;
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%, -50%);
+ }
+
+.card-top {
+  background-image: url("../images/bg-pattern-card.svg");
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-main {
+  background-color: white;
+  height: 300px;
+  border-radius: 0 0 10px 10px;
+  position: relative;
+}
+
+.img-vic {
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.two {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+
+.box1 {
+  position: absolute;
+  width:30%;
+
+}
+
+.box2 {
+  position: absolute;
+  width: 30%;
+  left: 35%;
+
+}
+
+.box3 {
+  margin: 0;
+  position: absolute;
+  width: 30%;
+  right: 0;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
